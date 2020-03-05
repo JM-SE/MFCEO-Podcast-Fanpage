@@ -1,0 +1,1022 @@
+@media only screen and (max-width: 320px) {
+    .hero-title h1 {
+        font-size: 6em;
+        top: 72%;
+    }
+    .hero-title h2 {
+        font-size: 1.7em;
+        padding: 0;
+        margin: 0;
+        top: 70%;
+        left: 2%;
+    }
+    .hero-container {
+        margin-bottom: 35%;
+    }
+    .hero-img::before {
+        top: 35%;
+        width: 13.7em;
+    }
+    .hero-img::after {
+        width: 13.7em;
+    }
+    .guest a {
+        font-size: .8em;
+        top: 68%;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .hero-container {
+        top: 15%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .subtitle {
+        font-size: 2.5em;
+    }
+    /* ====================================================== */
+    .nav img {
+        max-width: 5%;
+        height: auto;
+        margin: 2% 0 0 5%;
+    }
+    /* ====================================================== */
+    .hero-container {
+        top: 14%;
+    }
+    .hero-title h1 {
+        font-size: 14em;
+        top: 75%;
+    }
+    .hero-title h2 {
+        font-size: 3.5em;
+        top: 75%;
+        left: 10%;
+    }
+    .hero-img h3 {
+        position: relative;
+        font-size: 3em;
+        top: -5%;
+    }
+    .hero-img img {
+        width: 100%;
+    }
+    .hero-img::before {
+        width: 31em;
+        top: 15%;
+    }
+    .hero-img::after {
+        width: 31em;
+    }
+    .hero-quote p {
+        font-size: 2em;
+    }
+    /* ====================================================== */
+    .about-box-a {
+        margin-top: 10%;
+        padding-top: 0;
+    }
+    .about-box-a h3 {
+        font-size: 1.5em;
+    }
+    .about-box-a span {
+        color: red;
+        font-size: 1.4em;
+        font-family: 'Tomorrow', sans-serif;
+    }
+    .about-box-a img {
+        top: 80%;
+        left: 38%;
+        width: 25%;
+        height: auto;
+    }
+    .about-box-b h2 {
+        font-size: 1.5em;
+    }
+    .about-box-b p {
+        font-size: 1em;
+        line-height: 150%;
+    }
+    /* ====================================================== */
+    .episodes-container {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .episode-card {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 2%;
+        text-align: center;
+    }
+    .episode-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+    .episode-card h2 {
+        grid-column: 3 / 5;
+        grid-row: 1 / 2;
+        font-size: 1.7em;
+        text-align: left;
+    }
+    .episode-card p {
+        grid-column: 1 / 5;
+        grid-row: 2 / 3;
+    }
+    .episode-card .dates {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+        position: relative;
+        top: 70%;
+        text-align: right;
+    }
+    .episode-img img {
+        width: 85%;
+    }
+    .episode-player {
+        grid-column: 1 / 5;
+        grid-row: 3 / 4;
+    }
+    .ep-subtitle::after {
+        right: 32%;
+    }
+    /* ====================================================== */
+    .topic-container {
+        top: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    /* ====================================================== */
+    .guests-container {
+        top: 0%;
+    }
+    .guest {
+        margin-bottom: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.2);
+    }
+    .guest img {
+        width: 80%;
+    }
+    .guest h4 {
+        font-size: 4em;
+        top: -10%;
+    }
+    .guest a {
+        top: 85%;
+        left: 42%;
+        font-size: 1em;
+    }
+    .theresa h4 {
+        font-size: 3.5em;
+        top: 20%;
+    }
+    .guests-subtitle::after {
+        right: 41%;
+    }
+    /* ====================================================== */
+    .other-podcasts-container {
+        top: 0;
+    }
+    .podcast-card {
+        display: grid;
+        grid-template-columns: 30% repeat(3, 1fr);
+        grid-template-rows: 1fr 30%;
+        grid-gap: 2%;
+    }
+    .podcast-card img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 100%;
+    }
+    .podcast-card p {
+        grid-column: 2 / 5;
+        grid-row: 1 / 2;
+        text-align: left;
+    }
+    .podcast-card a.btn3 {
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+        font-size: 1.5em;
+        margin: 15%;
+        margin-bottom: 0;
+        padding: 5%;
+        position: relative;
+        bottom: 20%;
+        right: 5%;
+    }
+    .other-pod-subtitle::after {
+        right: 33%;
+    }
+    /* ====================================================== */
+    footer {
+        top: 0%;
+        padding-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .hero-container {
+        top: 10%;
+    }
+    .hero-title h2 {
+        top: 78%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .subtitle {
+        font-size: 2.5em;
+    }
+    /* ====================================================== */
+    .nav img {
+        width: 3%;
+        height: auto;
+        margin: .5% 0 0 2%;
+        padding: 1%;
+    }
+    .nav label {
+        margin: 0% 40px 0 0;
+        font-size: 26px;
+    }
+    .menu {
+        padding-bottom: 1%;
+        padding-top: 4%;
+    }
+    /* ====================================================== */
+    .hero-container {
+        display: grid;
+        grid-template-columns: 15% 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100%;
+        height: 90vh;
+        width: 98vw;
+        top: 0%;
+        padding-bottom: 0;
+    }
+    .hero-title {
+        grid-column: 1 / 2;
+    }
+    .hero-img {
+        position: relative;
+        grid-column: 2 / 4;
+    }
+    .hero-quote {
+        grid-column: 4 / 6;
+        grid-row: 1 / 2;
+    }
+    .hero-title h1 {
+        font-size: 9em;
+        top: 68%;
+        right: 2%;
+    }
+    .hero-title h2 {
+        font-size: 2.3em;
+        top: 69%;
+        left: 18%;
+    }
+    .hero-img h3 {
+        font-size: 2.5em;
+        top: 8%;
+    }
+    .hero-img img {
+        width: 90%;
+        margin-top: 15%;
+    }
+    .hero-img::before {
+        width: 66em;
+        top: 25%;
+    }
+    .hero-img::after {
+        width: 66em;
+        top: 103%;
+    }
+    .hero-quote p {
+        font-size: 2em;
+        top: 35%;
+    }
+    /* ====================================================== */
+    .about-box-a {
+        margin-top: 10%;
+        padding-top: 0;
+    }
+    .about-box-a h3 {
+        font-size: 1.8em;
+    }
+    .about-box-a h2 {
+        font-size: 3em;
+    }
+    .about-box-a span {
+        color: red;
+        font-size: 1.4em;
+        font-family: 'Tomorrow', sans-serif;
+    }
+    .about-box-a img {
+        top: 80%;
+        left: 38%;
+        width: 25%;
+        height: auto;
+    }
+    .about-box-b h2 {
+        font-size: 1.6em;
+    }
+    .about-box-b p {
+        font-size: 1.3em;
+        line-height: 150%;
+    }
+    /* ====================================================== */
+    .episodes-container {
+        grid-gap: 1%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 20% 1fr 5%;
+    }
+    .ep-subtitle {
+        grid-row: 1 / 2;
+        grid-column: 1 / 5;
+        padding-top: 5%;
+    }
+    .ep-subtitle::after {
+        top: 105%;
+        right: 40.5%;
+    }
+    .ep-subtitle p {
+        padding-top: 0;
+    }
+    .episode-card {
+        margin-top: 20%;
+        padding: 0 4% 0 4%;
+        grid-column: auto;
+        grid-row: 2 / 3;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 8% 20% 36% 3% 10%;
+        grid-gap: 1%;
+        text-align: center;
+        align-content: center;
+    }
+    .episode-img {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    .episode-card h2 {
+        margin-top: 0;
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        text-align: justify;
+        font-size: 1.2em;
+    }
+    .episode-card p {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+        font-size: .8em;
+        padding: 0 3% 0 3%;
+        text-align: justify;
+    }
+    .episode-card .dates {
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+        position: relative;
+        top: -20%;
+        text-align: right;
+        font-size: .7em;
+    }
+    .episode-img img {
+        width: 90%;
+    }
+    .episode-player {
+        grid-row: 5 / 6;
+        grid-column: 1 / 2;
+    }
+    .btn-episodes {
+        grid-row: 3 / 4;
+        grid-column: 1 / 5;
+        position: relative;
+        top: 50%;
+    }
+    .btn-episodes a {
+        padding: 2%;
+    }
+    /* ====================================================== */
+    .topic-container {
+        top: 10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .topic {
+        margin: 0 .5% 0 .5%;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .topic img {
+        width: 150%;
+        height: auto;
+        flex-shrink: 0;
+    }
+    .topic h2 {
+        font-size: 2em;
+    }
+    /* ====================================================== */
+    .guests-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 20% repeat(4, 1fr);
+        grid-gap: .5%;
+    }
+    .guests-subtitle {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .guests-subtitle::after {
+        top: 70%;
+        right: 35%;
+    }
+    .guest {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    .guest img {
+        width: 100%;
+    }
+    .guest h4 {
+        top: 20%;
+        font-size: 2em;
+    }
+    .guest a {
+        top: 65%;
+        left: 35%;
+    }
+    .gary {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .jason {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .jillian {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    .ryan {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .tyron {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    .nicole {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    .jp {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    .james {
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+    }
+    .theresa {
+        grid-column: 3 / 4;
+        grid-row: 4 / 5;
+    }
+    .mark {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+    .charlie {
+        grid-column: 2 / 3;
+        grid-row: 5 / 6;
+    }
+    .shawn {
+        grid-column: 3 / 4;
+        grid-row: 5 / 6;
+    }
+    /* ====================================================== */
+    .other-podcasts-container {
+        padding: 5%;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20% 1fr;
+        grid-gap: 2%;
+        top: 0%;
+        margin-bottom: 5%;
+    }
+    .podcast-card {
+        grid-column: auto;
+        padding: 0 5% 5% 5%;
+        display: grid;
+        grid-template-columns: 25% 1fr;
+        grid-template-rows: 1fr 10%;
+        margin: 0;
+    }
+    .podcast-card img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 100%;
+    }
+    .podcast-card p {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        text-align: justify;
+        font-size: .9em;
+    }
+    .podcast-card p::before {
+        content: '';
+        height: .2em;
+        width: 90%;
+        background: white;
+        position: absolute;
+        top: 10%;
+        left: 5.3%;
+    }
+    .podcast-card a.btn3 {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        font-size: 1em;
+        padding: 2%;
+        top: -200%;
+        right: 0;
+    }
+    .other-pod-subtitle {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        text-align: center;
+    }
+    .other-pod-subtitle::after {
+        top: 90%;
+        right: 40.5%;
+    }
+    /* ====================================================== */
+    footer {
+        position: relative;
+        display: grid;
+        grid-template-columns: 20% 1fr 1fr;
+        grid-gap: 0%;
+        top: 2%;
+        text-align: center;
+    }
+    .footer-img {
+        grid-column: 1 / 2;
+        padding-bottom: 0;
+    }
+    .footer-img img {
+        width: 30%;
+        height: auto;
+    }
+    .contact-info {
+        grid-column: 2 / 3;
+        position: relative;
+    }
+    .contact-info h3::before {
+        content: '';
+        background: white;
+        height: 8em;
+        width: 1px;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+    .contact-info h3::after {
+        content: '';
+        background: white;
+        height: 8em;
+        width: 1px;
+        position: absolute;
+        top: 5%;
+        right: 6%;
+    }
+    .social-links {
+        grid-column: 3 / 4;
+        margin-bottom: 10%;
+    }
+    .copywright {
+        grid-column: 1 / 4;
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .menu {
+        padding-top: 6%;
+    }
+    .hero-title h2 {
+        top: 68%;
+        left: 14%;
+        font-size: 3em;
+    }
+    .hero-title h1 {
+        font-size: 11em;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .nav img {
+        max-width: 4%;
+    }
+    .nav label {
+        font-size: 36px;
+    }
+    /* ====================================================== */
+    .hero-container {
+        width: 98vw;
+        top: 12%;
+    }
+    .hero-title h1 {
+        font-size: 13.5em;
+        top: 62%;
+        right: 2%;
+    }
+    .hero-title h2 {
+        font-size: 3.5em;
+        top: 59%;
+        left: 8%;
+    }
+    .hero-img h3 {
+        font-size: 4em;
+        top: -5%;
+    }
+    .hero-img img {
+        margin-top: 0;
+    }
+    .hero-img::before {
+        top: 15%;
+        width: 75em;
+    }
+    .hero-img::after {
+        width: 75em;
+        top: 93%;
+    }
+    .hero-quote p {
+        font-size: 3em;
+        top: 23%;
+    }
+    /* ====================================================== */
+    .episode-card {
+        width: 92%;
+        text-align: center;
+        align-content: center;
+    }
+    .episode-card h2 {
+        font-size: 1.6em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .episode-card p {
+        font-size: .9em;
+    }
+    .episode-card .dates {
+        top: -45%;
+        text-align: right;
+        font-size: .8em;
+    }
+    .episode-img img {
+        width: 80%;
+    }
+    .btn-episodes {
+        position: relative;
+        top: 30%;
+    }
+    /* ====================================================== */
+    .topic {
+        margin: 2%;
+    }
+    /* ====================================================== */
+    .guest h4 {
+        font-size: 2.7em;
+    }
+    .guest a {
+        top: 70%;
+    }
+    .theresa h4 {
+        top: 16%;
+    }
+    /* ====================================================== */
+    .other-podcasts-container {
+        padding-bottom: 10%;
+    }
+    .podcast-card img {
+        width: 100%;
+    }
+    .podcast-card p {
+        font-size: 1em;
+    }
+    .podcast-card a.btn3 {
+        font-size: 1.2em;
+        padding: 2%;
+        right: 1%;
+        top: -150%;
+    }
+    .ep-subtitle::after {
+        top: 110%;
+        right: 40.5%;
+    }
+    .guests-subtitle::after {
+        top: 60%;
+        right: 35.5%;
+    }
+    .other-pod-subtitle::after {
+        top: 85%;
+        right: 41.5%;
+    }
+    /* ====================================================== */
+    .contact-info {
+        position: relative;
+    }
+    .contact-info h3::before {
+        content: '';
+        background: white;
+        height: 8em;
+        width: 1px;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+    .contact-info h3::after {
+        content: '';
+        background: white;
+        height: 8em;
+        width: 1px;
+        position: absolute;
+        top: 5%;
+        right: 6%;
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+    .hero-title h2 {
+        top: 60%;
+        left: 11%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .hero-title h1 {
+        top: 59%;
+    }
+    .hero-title h2 {
+        top: 59%;
+        left: 12%;
+    }
+    .guest a {
+        left: 38%;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .nav img {
+        max-width: 2%;
+        margin: 0 0 0 1.5%;
+    }
+    .nav label {
+        margin: 0% 40px 0 0;
+        font-size: 36px;
+    }
+    /* ====================================================== */
+    .hero-container {
+        width: 98vw;
+        height: 100vh;
+        top: 0;
+    }
+    .hero-title h1 {
+        font-size: 14em;
+        top: 62%;
+    }
+    .hero-title h2 {
+        font-size: 3.5em;
+        top: 63%;
+        left: 18%;
+    }
+    .hero-title img {
+        margin-top: 0;
+    }
+    .hero-img h3 {
+        font-size: 5em;
+        top: 5%;
+    }
+    .hero-img::before {
+        top: 25%;
+        width: 101em;
+    }
+    .hero-img::after {
+        width: 101em;
+        top: 96%;
+    }
+    .hero-quote p {
+        font-size: 3em;
+        top: 35%;
+    }
+    /* ====================================================== */
+    .about-box-a {
+        margin-top: 10%;
+        padding-top: 0;
+    }
+    .about-box-a h3 {
+        font-size: 2.2em;
+    }
+    .about-box-a h2 {
+        font-size: 3.5em;
+    }
+    .about-box-a img {
+        top: 75%;
+        left: 38%;
+        width: 25%;
+        height: auto;
+    }
+    .about-box-b h2 {
+        font-size: 1.8em;
+    }
+    .about-box-b p {
+        font-size: 1.5em;
+        line-height: 150%;
+    }
+    /* ====================================================== */
+    .episode-card {
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 27% 32% 4% 8%;
+        grid-gap: 0%;
+    }
+    .episode-card h2 {
+        font-size: 1.6em;
+        text-align: justify;
+    }
+    .episode-card p {
+        font-size: 1em;
+        text-align: justify;
+    }
+    .episode-card .dates {
+        top: -45%;
+        text-align: right;
+        font-size: .8em;
+    }
+    .episode-img img {
+        width: 90%;
+    }
+    .btn-episodes {
+        top: 70%;
+    }
+    .btn-episodes a {
+        font-size: 1em;
+        padding: 1%;
+    }
+    .ep-subtitle::after {
+        content: '';
+        background-color: white;
+        height: 2px;
+        width: 6em;
+        position: absolute;
+        top: 110%;
+        right: 43.3%;
+    }
+    /* ====================================================== */
+    .guests-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 25% repeat(3, 1fr);
+    }
+    .guests-subtitle {
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+    }
+    .guests-subtitle::after {
+        top: 65%;
+        right: 46.3%;
+    }
+    .guest h4 {
+        font-size: 2.5em;
+    }
+    .guest a {
+        left: 35%;
+    }
+    .gary {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .jason {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .jillian {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    .ryan {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+    }
+    .tyron {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .nicole {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    .jp {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    .james {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
+    .theresa {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    .mark {
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+    }
+    .charlie {
+        grid-column: 3 / 4;
+        grid-row: 4 / 5;
+    }
+    .shawn {
+        grid-column: 4 / 5;
+        grid-row: 4 / 5;
+    }
+    /* ====================================================== */
+    .other-podcasts-container {
+        padding: 5%;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30% 1fr;
+        grid-gap: 2%;
+        top: 0%;
+        margin-bottom: 5%;
+    }
+    .podcast-card {
+        grid-column: auto;
+        padding: 0 5% 0 5%;
+        display: grid;
+        grid-template-columns: 25% 1fr;
+        grid-template-rows: 1fr 10%;
+    }
+    .podcast-card img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        max-width: 100%;
+    }
+    .podcast-card p {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        text-align: justify;
+        font-size: 1.2em;
+        line-height: 140%;
+    }
+    .podcast-card a.btn3 {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        font-size: 1.5em;
+        top: -250%;
+        right: 0%;
+    }
+    .other-pod-subtitle {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        text-align: center;
+    }
+    .other-pod-subtitle::after {
+        top: 55%;
+        right: 43%;
+    }
+    /* ====================================================== */
+    .contact-info {
+        position: relative;
+    }
+    .contact-info h3::before {
+        content: '';
+        background: white;
+        height: 9em;
+        width: 1px;
+        position: absolute;
+        top: 0;
+        left: 10%;
+    }
+    .contact-info h3::after {
+        content: '';
+        background: white;
+        height: 9em;
+        width: 1px;
+        position: absolute;
+        top: 0;
+        right: 10%;
+    }
+}
